@@ -9,5 +9,5 @@ end:
 	# down and delete local image
 	docker-compose down --rmi local
 
-test:
-	# test'
+db:
+	docker exec -it postgres psql -U postgres
