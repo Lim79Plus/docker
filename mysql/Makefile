@@ -1,5 +1,5 @@
 start:
-	docker-compose up -db
+	docker-compose up -d
 
 end:
 	docker-compose down
