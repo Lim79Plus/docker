@@ -11,3 +11,6 @@ db:
 	# table一覧        : shodow tables;
 	# mysqlから抜ける   : exit
 	docker exec -it mysql mysql -u root -p
+
+bash:
+	docker exec -it mysql /bin/bash
